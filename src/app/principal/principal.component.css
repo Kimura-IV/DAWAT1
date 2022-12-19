@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400&display=swap');
+*{
+    list-style:none;
+    font-family: 'Viga', sans-serif;
+}
+
+body{
+    background-image: url("https://i.imgur.com/wIEtW0eh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* header - footer */
+header{
+   background-color: #1b1b1b00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 4%;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    color: #83cbe9;
+    align-items: center;
+    bottom: 0;
+}
+
+.contenedorfooter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* menu desplegable inicio */
+li,a,button{
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+    word-spacing: 50px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color: #0083A3;
+}
+
+.nav_links li a:hover {
+    color: #83cbe9;
+}
+
+button{
+    font-family: 'Viga', sans-serif;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #83cbe9;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    top: 60px;
+    width: 150px;
+    background-color: #0088a9;
+    border-radius: 5px;
+}
